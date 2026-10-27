@@ -1,6 +1,6 @@
 kind = "web"
 previewPath = "/"
-title = "NOVA"
+title = "ANAMAS"
 description = "An AI engineering intelligence workspace that turns software ideas into structured architecture, actionable project plans, and codebase insights."
 version = "1.0.0"
 id = "artifacts/nova"
