@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "NOVA"
+description = "An AI engineering intelligence workspace that turns software ideas into structured architecture, actionable project plans, and codebase insights."
+version = "1.0.0"
+id = "artifacts/nova"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18131
+
+[services.development]
+run = "pnpm --filter @workspace/nova run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/nova", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/nova/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18131"
+BASE_PATH = "/"
