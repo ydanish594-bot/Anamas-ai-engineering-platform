@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "HaTAALfW1e_dx92kLjLmL"
+uri = "file://generated-artifacts/ANAMAS-source.zip"
+type = "unspecified"
+title = "ANAMAS source code ZIP"
+description = "Downloadable project source archive with pnpm workspace configuration and app artifacts. Excludes dependencies, build output, caches, Git history, and environment secrets."
+logical_id = "d5288a3a-6ea9-4630-99a8-e1b9352f78ff"
+content_hash = "sha256:95a327c78649fbc23e477d070cd37c3f57e7c7710c7eb4be1f39fbe2328c5213"
+size = 393627
+mtime_ms = 1793121265974
+storage_uri = "gcs://replit-rams-assets-pike/rams/assets/repl:0abf3f06-6c82-415a-86be-55373f5b79cf/d5288a3a-6ea9-4630-99a8-e1b9352f78ff/ab232e95-a031-475c-b5af-0f2fd71fe9f5"
+storage_version_token = "1793121304136355"
+content_type = "application/octet-stream"
